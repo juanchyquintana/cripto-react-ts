@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# Consulta de Precios de Criptomonedas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación para consultar el precio de las criptomonedas desarrollada con React y TypeScript. La aplicación permite a los usuarios obtener información actualizada sobre los precios de diferentes criptomonedas consultando una API.
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
+- **React:** Para construir la interfaz de usuario.
+- **TypeScript:** Para añadir tipado estático al código JavaScript.
+- **Axios:** Para realizar solicitudes HTTP a la API de criptomonedas.
+- **Zod:** Para validación de datos.
+- **Zustand:** Para la gestión del estado.
+- **Vite:** Para un entorno de desarrollo rápido y eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
+- **Consulta de Precios:** Permite a los usuarios buscar y obtener información actualizada sobre los precios de diferentes criptomonedas.
+- **Validación de Datos:** Utiliza Zod para la validación de datos recibidos de la API.
+- **Gestión de Estado:** Utiliza Zustand para manejar el estado de la aplicación de manera eficiente.
+- **Componentes Reutilizables:** La aplicación está dividida en componentes reutilizables para facilitar el mantenimiento y escalabilidad.
+- **Estilo y Diseño:** Utiliza CSS para el diseño y estilizado de la aplicación.
 
-## Expanding the ESLint configuration
+## Dependencias
+- **axios:** Para realizar solicitudes HTTP.
+- **react:** Librería para la construcción de interfaces de usuario.
+- **react-dom:** Librería para manipular el DOM.
+- **zod:** Para validación de datos.
+- **zustand:** Para la gestión del estado.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalación
+Clona este repositorio:
+```bash
+git clone https://github.com/juanchyquintana/cripto-react-ts
